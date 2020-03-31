@@ -1,0 +1,54 @@
+body{
+    background: #a9d7e9;
+}
+
+header{
+    text-align: center;
+font-size: 15px;
+}
+
+
+.form-example{
+    max-width: 500px;
+    margin: 3rem auto;
+    background-color: #333;
+    padding: 1rem 5rem;
+    padding-right: 7.5rem;
+    border-radius: 10px;
+}
+label{
+    display: block;
+    padding: 1rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+input,
+textarea{
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    text-transform: uppercase;
+    background-color: rgba(211, 211, 211, 0.87);
+    border-style: none;
+    border-radius: 5px;
+    border: #d420da65 solid 2px;
+}
+#send-btn{
+    margin: 0.5rem;
+    width: auto;
+    background-color: tomato;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+   
+}
+#send-btn:hover{
+    background-color: thistle;
+    transition: 3s background ease-in;
+}
+#Title{
+    margin-left: 0;
+    width: 16rem;
+    background-color: rgba(211, 211, 211, 0.87);
+}
